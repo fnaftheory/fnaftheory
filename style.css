@@ -1,0 +1,50 @@
+@font-face {
+	font-family: text;	
+	src: url("") format('truetype'); /* Путь к файлу со шрифтом */
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	font-size: 25px;
+	font-family: text;
+}
+
+.mc-c {
+	color: white;
+}
+
+/* Light mode */
+@media (prefers-color-scheme: light) {
+    :root {
+        --color-scheme-background: white;
+        --color-scheme-text-color: black;
+    }
+		a {
+			color: black; /* Цвет обычной ссылки */
+		}
+}
+
+/* Тёмная тема */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-scheme-background: black;
+        --color-scheme-text-color: white;
+    }
+		a {
+			color: white; /* Цвет обычной ссылки */
+		}
+}
+
+/* Usage */
+html {
+    background: var(--color-scheme-background);
+    color: var(--color-scheme-text-color);
+}
+
+a:visited {
+    color: none; /* Цвет посещённой ссылки */
+   }
+a:hover {
+    color: rgb(128, 17, 231); /* Цвет ссылки при наведении на нее курсора мыши */
+   }
