@@ -48,3 +48,37 @@ a:visited {
 a:hover {
     color: rgb(128, 17, 231); /* Цвет ссылки при наведении на нее курсора мыши */
    }
+
+
+@font-face {
+    font-family: ScottGamesFont;
+    src: url(scottgamesfont.TTF);
+    }
+@font-face {
+    font-family: Chiller;
+    src: url(CHILLER.TTF);
+    }
+@font-face {
+    font-family: FCIL;
+    src: url(FCIL.TTF);
+    }
+@font-face {
+    font-family: FNaFSCREEN;
+    src: url(FNaFSCREEN.TTF);
+    }
+h1 {
+    font-family: ScottGamesFont;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 40px;
+    }
+.MainHeader {
+    margin-top:0px;
+    text-align: center;
+    }
+.FancyH2 {
+    font-family: ScottGamesFont;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 32px;
+    }
