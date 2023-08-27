@@ -1,6 +1,4 @@
 # FnafTheory
-## Reddit
-https://www.reddit.com/r/fnaftheories/new/
 
 ## Сайты
 https://jestxfot.vercel.app
