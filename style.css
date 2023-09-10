@@ -85,9 +85,6 @@ h1 {
 .popup {
   color: red;
   cursor: pointer;
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
 }
 
 /* The actual popup */
