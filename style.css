@@ -96,7 +96,7 @@ h1 {
 /* The actual popup */
 .popup .popuptext {
   visibility: hidden;
-  width: 250px;
+  width: 300px;
   background-color: #555;
   color: #fff;
   text-align: center;
@@ -124,8 +124,8 @@ h1 {
 /* Toggle this class - hide and show the popup */
 .popup .show {
   visibility: visible;
-  -webkit-animation: fadeIn 0.5s;
-  animation: fadeIn 0.5s;
+  -webkit-animation: fadeIn 0s;
+  animation: fadeIn 0s;
 }
 
 /* Add animation (fade in the popup) */
