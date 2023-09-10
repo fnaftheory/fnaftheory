@@ -99,8 +99,6 @@ h1 {
   position: absolute;
   z-index: 1;
   bottom: 125%;
-  left: 50%;
-  margin-left: -80px;
 }
 
 /* Popup arrow */
