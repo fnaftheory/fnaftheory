@@ -83,6 +83,7 @@ h1 {
 
 /* Popup container - can be anything you want */
 .popup {
+  color: red;
   position: relative;
   display: inline-block;
   cursor: pointer;
